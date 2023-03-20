@@ -1,6 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function AddDestination() {
+    const [newCity, setNewCity] = useState("");
+    const [newCountry, setNewCountry] = useState("");
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        setNewCity("");
+        setNewCountry("");
+    }
     return (
         <div className="p-4 border">
             <form>
@@ -9,13 +18,17 @@ function AddDestination() {
                     <div className="col-5 p1">
                         <input className="form-control"
                             type="text"
-                            placeholder="Enter City ...">
+                            placeholder="Enter City ..."
+                            value={newCity}
+                            onChange={(e) => setNewCity(e.target.value)}>
                         </input>
                     </div>
                     <div className="col-5 p1">
                         <input className="form-control"
                             type="text"
-                            placeholder="Enter Country"></input>
+                            placeholder="Enter Country"
+                            value={newCountry}
+                            onChange={(e) => setNewCountry(e.target.value)}></input>
                     </div>
                     <div className="col-2 p1">
                         <button className="btn btn-success form-control">Add</button>
