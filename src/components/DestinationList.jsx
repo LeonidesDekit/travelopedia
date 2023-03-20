@@ -1,12 +1,30 @@
 import React from 'react'
-import AddDestination from './AddDestination'
+import { useGetAllDestinationQuery } from '../api/destinationApi'
 
 function DestinationList() {
+    const { data, isLoading, isSuccess, isError, error } = useGetAllDestinationQuery();
+
+    let content;
+    if (isLoading) {
+        content = <p>Loading...</p>
+    } else if (isSuccess) {
+        console.log(data);
+        content = data.map((destination) => {
+            return (
+                <article key={destination.id}>
+                    <div className="text-center text-info p-2">
+                        <div>
+                            {destination.city},{destination.country} - {" "}
+                            {destination.daysneed} days
+                        </div>
+                    </div>
+
+                </article>
+            )
+        })
+    }
     return (
-        <div className="text-white-50">
-            <h1 className="text-success text-center">Travel List</h1>
-            <AddDestination />
-        </div>
+        <div className="pt-3">{content}</div>
     )
 }
 
