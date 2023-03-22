@@ -23,6 +23,12 @@
       "city": "test1",
       "country": "test1",
       "daysNeeded": 2
+    },
+    {
+      "id": 5.695866896890633,
+      "city": "manila",
+      "country": "Philippines",
+      "daysNeeded": 4
     }
   ]
 }

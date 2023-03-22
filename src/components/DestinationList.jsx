@@ -15,7 +15,7 @@ function DestinationList() {
                     <div className="text-center text-info p-2">
                         <div>
                             {destination.city},{destination.country} - {" "}
-                            {destination.daysneed} days
+                            {destination.daysNeeded} days
                         </div>
                     </div>
 
