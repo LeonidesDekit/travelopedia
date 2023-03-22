@@ -7,12 +7,13 @@ export const destinationApi = createApi({
     endpoints: (builder) => ({
 
         getAllDestination: builder.query({
+            // query: () => "destination",
             query: () => ({
                 url: "destination",
                 method: "GET",
                 params: {},
             }),
-            transformResponse: (res) => res.sort((a, b) => b.id = a.id),
+            transformResponse: (res) => res.sort((a, b) => b.id - a.id),
             providesTags: ["Destinations"],
         }),
         // getAllDestination: builder.query({

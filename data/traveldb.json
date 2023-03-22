@@ -1,28 +1,16 @@
 {
   "destination": [
     {
-      "id": 2,
-      "city": "Chicago",
-      "country": "USA",
-      "daysNeeded": 5
+      "id": 51.03223311404535,
+      "city": "qweasd",
+      "country": "asd",
+      "daysNeeded": 7
     },
     {
-      "id": 5.695866896890633,
-      "city": "manila",
-      "country": "Philippines",
-      "daysNeeded": 4
-    },
-    {
-      "id": 47.974796306227006,
-      "city": "qwe",
-      "country": "rest",
-      "daysNeeded": 10
-    },
-    {
-      "id": 15.62639946404396,
-      "city": "ATLANTA",
-      "country": "hawks",
-      "daysNeeded": 1
+      "id": 84.31044219009098,
+      "city": "madagascar",
+      "country": "anybody",
+      "daysNeeded": 2
     }
   ]
 }
