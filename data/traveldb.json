@@ -7,12 +7,6 @@
       "daysNeeded": 5
     },
     {
-      "id": 3,
-      "city": "Cebu City",
-      "country": "Philippines",
-      "daysNeeded": 16
-    },
-    {
       "id": 5.695866896890633,
       "city": "manila",
       "country": "Philippines",
@@ -23,6 +17,12 @@
       "city": "qwe",
       "country": "rest",
       "daysNeeded": 10
+    },
+    {
+      "id": 15.62639946404396,
+      "city": "ATLANTA",
+      "country": "hawks",
+      "daysNeeded": 1
     }
   ]
 }
