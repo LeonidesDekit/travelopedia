@@ -11,6 +11,18 @@
       "city": "Chicago",
       "country": "USA",
       "daysNeeded": 5
+    },
+    {
+      "id": 3,
+      "city": "Cebu City",
+      "country": "Philippines",
+      "daysNeeded": 16
+    },
+    {
+      "id": 92.05805441056172,
+      "city": "test1",
+      "country": "test1",
+      "daysNeeded": 2
     }
   ]
 }
