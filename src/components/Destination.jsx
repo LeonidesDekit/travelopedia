@@ -64,7 +64,9 @@ function Destination({ destination }) {
                 </div>
 
             </div>
-
+            <div className="col-1 text-warning">
+                {destination.daysNeeded} days
+            </div>
             <div className="col-2">
                 <button className="btn btn-warning"
                     onClick={() => setIsUpdating(!isUpdating)}>

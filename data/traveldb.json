@@ -11,6 +11,18 @@
       "city": "somebody",
       "country": "anybody",
       "daysNeeded": 2
+    },
+    {
+      "id": 70.57393192189826,
+      "city": "mandaue",
+      "country": "philippines",
+      "daysNeeded": 3
+    },
+    {
+      "id": 84.38934286534725,
+      "city": "baybay",
+      "country": "dubai",
+      "daysNeeded": 4
     }
   ]
 }
